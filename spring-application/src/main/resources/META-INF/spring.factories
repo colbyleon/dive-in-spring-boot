@@ -1,0 +1,14 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.idreamsky.springapplication.context.HelloWorldApplicationContextInitializer,\
+com.idreamsky.springapplication.context.AfterHelloWorldApplicationContextInitializer
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.idreamsky.springapplication.listener.AfterHelloWorldApplicationListener,\
+com.idreamsky.springapplication.listener.HelloWorldApplicationListener,\
+com.idreamsky.springapplication.listener.BeforeConfigFileApplicationListener
+
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.idreamsky.springapplication.run.HelloWorldSpringApplicationRunListener
