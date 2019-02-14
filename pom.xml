@@ -18,6 +18,7 @@
         <module>springboot-view</module>
         <module>springboot-rest</module>
         <module>spring-servlet</module>
+        <module>sprint-boot-servlet</module>
     </modules>
     <packaging>pom</packaging>
 
