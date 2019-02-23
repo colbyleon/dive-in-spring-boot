@@ -19,6 +19,7 @@
         <module>springboot-rest</module>
         <module>spring-servlet</module>
         <module>sprint-boot-servlet</module>
+        <module>spring-reactive</module>
     </modules>
     <packaging>pom</packaging>
 
